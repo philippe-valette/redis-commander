@@ -58,7 +58,8 @@
   "preferGlobal": true,
   "scripts": {
     "postinstall": "echo '==> INFO: Errors with module \"bcrypt\" can be ignored'",
-    "snyk-protect": "snyk protect"
+    "snyk-protect": "snyk protect",
+    "start":  "./bin/redis-commander.js --redis-host 172.30.77.148 --redis-password Orange2020$"
   },
   "snyk": true
 }
